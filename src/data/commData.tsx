@@ -1,30 +1,30 @@
 const tipo1Opciones = [
   {
     titulo: "Bust/Head",
-    precio: 100,
+    precio: 150,
   },
   {
     titulo: "Half Body",
-    precio: 120,
+    precio: 170,
   },
   {
     titulo: "Full Body",
-    precio: 140,
+    precio: 200,
   },
 ];
 
 const tipo2Opciones = [
   {
     titulo: "Bust/Head",
-    precio: 60,
-  },
-  {
-    titulo: "Half Body",
     precio: 70,
   },
   {
-    titulo: "Full Body",
+    titulo: "Half Body",
     precio: 85,
+  },
+  {
+    titulo: "Full Body",
+    precio: 100,
   },
 ];
 
@@ -53,9 +53,9 @@ const tipo5Opciones = [
     precio: 120,
   },
   {
-    titulo: "Front, Back + Back",
+    titulo: "Front, Back + (Side or Outfit)",
     description: "the extra body can be an outfit or a side body",
-    precio: 158,
+    precio: 180,
   },
 ];
 
@@ -64,30 +64,38 @@ export const commData = [
     title: "Full Color",
     optionList: tipo1Opciones,
     galeria: [
-      "/examples/ej2.png",
-      "/examples/full.jpg",
-      "/examples/ej1.png",
-      "/examples/ej6.png",
+      "/comminfo/examples/ej2.png",
+      "/comminfo/examples/full.jpg",
+      "/comminfo/examples/ej1.png",
+      "/comminfo/examples/ej6.png",
     ],
   },
   {
     title: "Simple Color",
     optionList: tipo2Opciones,
-    galeria: ["/examples/ej9.png", "/examples/ej11.png", "/examples/ej18.png"],
+    galeria: [
+      "/comminfo/examples/ej9.png",
+      "/comminfo/examples/ej11.png",
+      "/comminfo/examples/ej18.png",
+    ],
   },
   {
     title: "Lineart",
     optionList: tipo3Opciones,
-    galeria: ["/examples/sk4.png", "/examples/sk5.png", "/examples/sk1.jpg"],
+    galeria: [
+      "/comminfo/examples/sk4.png",
+      "/comminfo/examples/sk5.png",
+      "/comminfo/examples/sk1.jpg",
+    ],
   },
   {
     title: "Ref Sheets",
     optionList: tipo5Opciones,
     galeria: [
-      "/examples/ref2.png",
-      "/examples/ref4.png",
-      "/examples/ref7.png",
-      "/examples/ref6.png",
+      "/comminfo/examples/ref2.png",
+      "/comminfo/examples/ref4.png",
+      "/comminfo/examples/ref7.png",
+      "/comminfo/examples/ref6.png",
     ],
   },
 ];
