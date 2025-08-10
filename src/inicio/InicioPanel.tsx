@@ -74,6 +74,7 @@ function InicioPanel() {
               <FontAwesomeIcon icon={faTelegram} />
             </a>
 
+            {/*
             <a
               className="social-icon"
               href="https://x.com/"
@@ -83,6 +84,7 @@ function InicioPanel() {
             >
               <FontAwesomeIcon icon={faXTwitter} />
             </a>
+            */}
 
             <a
               className="social-icon"
