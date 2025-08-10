@@ -8,7 +8,7 @@ import OffersPage from "./inicio/OffersPage";
 function App() {
   return (
     <div className="bckground">
-      <BrowserRouter>
+      <BrowserRouter basename="/comminfo">
         <Routes>
           <Route path="/" element={<InicioPanel />} />
           <Route path="/tos" element={<TosPage />} />
