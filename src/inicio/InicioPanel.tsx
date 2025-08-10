@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
   faTelegram,
-  faXTwitter,
+  //faXTwitter,
   faTrello,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -84,6 +84,7 @@ function InicioPanel() {
             >
               <FontAwesomeIcon icon={faXTwitter} />
             </a>
+            */}
             */}
 
             <a
