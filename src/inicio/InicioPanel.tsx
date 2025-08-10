@@ -85,7 +85,6 @@ function InicioPanel() {
               <FontAwesomeIcon icon={faXTwitter} />
             </a>
             */}
-            */}
 
             <a
               className="social-icon"
